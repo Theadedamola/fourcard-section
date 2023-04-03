@@ -1,0 +1,93 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: hsl(0, 0%, 98%);
+    margin: 40px 150px 0 150px;
+}
+h1{
+    font-weight: 200;
+    margin: 0;
+    color: hsl(229, 6%, 66%);
+}
+.h1-2{
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 20px;
+}
+p{
+    width: 40%;
+    margin: auto;
+    color: hsl(229, 6%, 66%);
+    font-size: 12px;
+    line-height: 2;
+}
+h3{
+    color: hsl(234, 12%, 34%);
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+.card1, .card2, .card3, .card4{
+    background-color: #fff;
+    margin-top: 20px;
+    width: 240px;
+    height: 169px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 8px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    box-shadow: 10px 10px 20px hsl(235, 23%, 91%);
+}
+.card1{
+    margin: auto;
+}
+.card2{
+    border-top: 4px solid hsl(180, 62%, 55%);
+    margin: 20px auto;
+    width: 240px;
+}
+.card3{
+    border-top: 4px solid hsl(34, 97%, 64%);
+    margin: 20px auto;
+    width: 240px;
+}
+.card4{
+    border-top: 4px solid hsl(212, 86%, 64%);
+    margin: auto;
+}
+.card-txt{
+    margin: 0;
+    width: 80%;
+    font-size: 10px;
+}
+.icon-img{
+    margin-top: 30px;
+    margin-left: 160px;
+}
+.container{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.card-container{
+    margin: 0 5px 0 5px;
+}
+
+
+/* responsiveness */
+
+@media (max-width: 600px) {
+    body{
+        margin: 40px 10px 0 10px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    p{
+        width: 70%;
+    }
+    .container{
+        display: block;
+        margin-top: 20px;
+        
+    }
+}
